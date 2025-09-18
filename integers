@@ -1,0 +1,12 @@
+/// write a paython program of 2 integers m,n to find sum of all integers from mton 
+
+
+
+m = int(input("Enter the starting value: "))
+n = int(input("Enter the ending value: "))
+
+if m > n:
+    print("Invalid input: m should be less than or equal to n.")
+else:
+    for i in range(m, n):
+        print(i)
