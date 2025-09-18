@@ -1,0 +1,12 @@
+//write a python program to check the body temperature
+
+Temp = float(input("Check the body temperature: "))
+
+if Temp > 37:
+    print("Fever")
+elif Temp == 37:
+    print("Normal")
+elif Temp < 37:
+    print("Cold")
+else:
+    print("Enter a valid number")
